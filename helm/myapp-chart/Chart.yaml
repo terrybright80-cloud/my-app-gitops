@@ -3,4 +3,4 @@ name: myapp-chart
 description: Helm chart for my Flask application
 type: application
 version: 0.2.0
-appVersion: "2.0.0"
+appVersion: "3.0.0"

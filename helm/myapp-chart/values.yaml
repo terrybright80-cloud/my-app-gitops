@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: myapp
-  tag: v2.0
+  tag: v3.0
   pullPolicy: IfNotPresent
 
 service:
@@ -21,7 +21,7 @@ ingress:
 
 env:
   - name: VERSION
-    value: "v2.0"
+    value: "v3.0"
 
 resources:
   requests:
